@@ -180,7 +180,7 @@ app.put('/reviews/:review_id/report', (req, res) => {
 });
 
 app.get('/loaderio-f5fb4190aef3f82439442fee6d53ca77', (req, res) => {
-  res.sendFile('loaderio-f5fb4190aef3f82439442fee6d53ca77.txt')
+  res.sendFile('/home/ubuntu/loaderio-f5fb4190aef3f82439442fee6d53ca77.txt')
 });
 
 const port = 3000;
