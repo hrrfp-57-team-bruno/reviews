@@ -179,6 +179,10 @@ app.put('/reviews/:review_id/report', (req, res) => {
     });
 });
 
+app.get('', (req, res) => {
+  res.sendFile('')
+});
+
 const port = 3000;
 
 app.listen(port, () => {
